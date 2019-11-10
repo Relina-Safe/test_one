@@ -1,0 +1,74 @@
+.box {
+  height: 400px;
+  width: 400px;
+  background: #9be3de;
+  z-index: 11;
+  position: relative;
+}
+
+.circle {
+  background: #eef5b2;
+  border-radius: 270px;
+  height: 80px;
+  width: 80px;
+  /*-_- you don't compile the file*/
+  position: relative;
+  margin-top: -120px !important;
+  z-index: 10;
+}
+
+.circle-2 {
+  border-radius: 270px;
+  height: 30px;
+  width: 30px;
+  background: #ffe3ed;
+  /*position : absolute;*/
+  margin-left: 25px;
+  margin-top: 25px;
+  display: none;
+}
+
+.box {
+  display: none;
+}
+.box p {
+  background: green;
+  color: blue;
+  font-size: 20px;
+}
+
+.anim {
+  display: block;
+  height: 100px;
+  width: 100px;
+  background: #333333;
+  animation: hadjr 10s infinite;
+}
+@keyframes hadjr {
+  0% {
+    opacity: 1;
+    margin-left: 0;
+    margin-top: 0px;
+    background: red;
+  }
+  50% {
+    opacity: 0.5;
+    margin-left: 100px;
+    margin-top: 250px;
+    background: blue;
+  }
+  70% {
+    opacity: 0;
+    transforme: translate3d(10px, 50px, 100px);
+    border-radius: 250px;
+  }
+  100% {
+    opacity: 1;
+    margin-left: 0px;
+    width: 400px;
+    background: red;
+    margin-top: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
