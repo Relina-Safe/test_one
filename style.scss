@@ -39,15 +39,8 @@ z-index: 10;
     height: 100px;
     width: 100px;
     background: #333333;
-    animation: hadjr 10s infinite; // and the 3rd parametre is ngolo idha yab9a y3aw wla ydirha mara brk- 
+   // animation: hadjr 10s infinite; 
     &:hover{
-    
-        // wait 5s and change the background color color 
-        // u get it ?yeah
-        // let's make it complicatd but now with an other type of animation called css keyframe
-        // tkhayli keyframe 3ibara 3la khat zamani min 0% => 100% ok ?ok
-        // n3arfo animation fi kol no9ta min 0% => 100%
-         // first for chrome browser wee need @-webkit-keyframes
     }
 
 }
@@ -56,9 +49,9 @@ z-index: 10;
         opacity: 1;
         margin-left: 0;
         margin-top: 0px;
-        background: red; // khali nkhalto choy wnchofo wech yasra
-    } // wech ra7 yasra fi rayk fi 0 ykon margin 0 and with a red color then will change 1min opa soory we forget to say the animation duration
-    //the opacity what does it mean chafafiya transparency so line of animation will get change in begin and ithe middl   
+        background: red; 
+    } 
+    
     50% {
         opacity: 0.5;
         margin-left: 100px;
@@ -68,7 +61,7 @@ z-index: 10;
     70% {
         opacity: 0;
         transforme: translate3d(10px,50px,100px);
-        border-radius: 250px; // 3ejbatk?n3m hh but you get it right?yeah
+        border-radius: 250px; 
     }
     100% {
         opacity: 1;
@@ -76,12 +69,5 @@ z-index: 10;
         width: 400px;
         background: red;
         margin-top: 0;
-    }// ra7 ndiro wech yassra fi kol min hadhi l7alat te3 khat zamani ok ?ok
-}// dorka 3arafna hadkr animation sa7?sa7 dorka lazm narbtoha b div li 7abin tasra 3lih hadhi animation
-// then the name of animation
-// now it's just a simple bos right?ok let's make some animation on it by using transitions 
-// we now that first the transition property must be in the normal state of the object 
-// not the hover state ok?yes let's make animation of margin left by 500px
-// when the mouse enter to the object it animate because the transition status in this case is :hover ok ?ok
-// let's say we want to make animation for the margin left and width and height in the same time
-// because we change them in hover state also 
+    }
+}
